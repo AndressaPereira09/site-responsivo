@@ -1,0 +1,72 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background: rgb(104, 175, 226);
+    color: rgb(28, 8, 100);
+}
+
+h2 {
+    text-align: center;
+}
+
+.col {
+    float: left;
+    width: 33.3%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.price-box {
+    background: rgb(117, 117, 231);
+    color: rgb(28, 8, 100);
+    list-style-type: none;
+    border: 2px solid blue;
+    margin: 0;
+    padding: 0;
+}
+
+.price-box .header {
+    background: black;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+.price-box .header.header-green {
+    background: white;
+    color: black;
+}
+
+.price-box li {
+    padding: 20px;
+    border-bottom: 20px solid rgb(102, 102, 237);
+    text-align: center;
+}
+
+.btn {
+    background-color: rgb(28, 8, 100);
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+}
+
+@media(max-width:768px) {
+    .col {
+        width: 100%;
+    }
+
+    body {
+        background-color: aqua;
+    }
+
+    .btn {
+        background-color: rgb(84, 38, 84);
+        border: none;
+        color: white;
+        padding: 10px 15px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 25px;
+    }
+}
